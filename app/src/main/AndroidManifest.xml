@@ -2,9 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.amiibos_ia">
 
-    <uses-feature android:name="android.hardware.camera.any" />
-
-    <!-- Specifying that the app will need camera permission -->
+    <uses-feature android:name="android.hardware.camera.any" /> <!-- Specifying that the app will need camera permission -->
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -15,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Amiibos_IA">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
