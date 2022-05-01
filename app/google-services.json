@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755892181478",
+    "project_id": "loginfirebase-f00f7",
+    "storage_bucket": "loginfirebase-f00f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755892181478:android:65c6b9ce8bbcae6eeede27",
+        "android_client_info": {
+          "package_name": "com.example.amiibos_ia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755892181478-3a1nq4efmdsii2cre3adjpr78jcs9lf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjFNzco42eqmszgD_q1w7Ba3kvgEwY5YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755892181478-3a1nq4efmdsii2cre3adjpr78jcs9lf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
