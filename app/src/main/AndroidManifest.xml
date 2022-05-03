@@ -13,10 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Amiibos_IA">
         <activity
+            android:name=".LoginScreen"
+            android:exported="true" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginScreen"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,9 +29,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>

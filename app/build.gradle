@@ -74,4 +74,9 @@ dependencies {
     // CameraX View class
     implementation "androidx.camera:camera-view:1.0.0-alpha17"
     implementation "androidx.activity:activity-ktx:1.1.0"
+
+    //Lottie Stuff
+
+    def lottieVersion = "3.6.0" //Version of lottie we are going to use
+    implementation "com.airbnb.android:lottie:$lottieVersion"
 }
