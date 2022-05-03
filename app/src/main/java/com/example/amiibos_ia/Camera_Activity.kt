@@ -26,10 +26,9 @@ import com.example.amiibos_ia.viewmodel.Recognition
 import com.example.amiibos_ia.viewmodel.RecognitionListViewModel
 import org.tensorflow.lite.support.image.TensorImage
 import java.util.concurrent.Executors
-import kotlin.random.Random
 
 // Constants
-private const val MAX_RESULT_DISPLAY = 3 // Maximum number of results displayed
+private const val MAX_RESULT_DISPLAY = 2 // Maximum number of results displayed
 private const val TAG = "TFL Classify" // Name for logging
 private const val REQUEST_CODE_PERMISSIONS = 999 // Return code after asking for permission
 private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA) // permission needed
@@ -59,7 +58,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_camera)
 
         // Request camera permissions
         if (allPermissionsGranted()) {

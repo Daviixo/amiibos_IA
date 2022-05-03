@@ -15,7 +15,6 @@ class RecognitionListViewModel : ViewModel() {
     fun updateData(recognitions: List<Recognition>){
         _recognitionList.postValue(recognitions)
     }
-
 }
 
 /**
