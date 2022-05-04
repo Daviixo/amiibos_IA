@@ -7,6 +7,15 @@
     tools:context=".LoginScreen"
     tools:ignore="Autofill, LabelFor">
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ssbu_bg"/>
+
     <Button
         android:id="@+id/Signin"
         android:layout_width="wrap_content"
